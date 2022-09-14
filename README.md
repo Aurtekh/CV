@@ -1,4 +1,2 @@
-# rsschool-cv
-* https://Aurtekh.github.io/rsschool-cv/cv
-* https://Aurtekh.github.io/rsschool-cv/
-* 
+# my CV
+* https://Aurtekh.github.io/CV/CV
