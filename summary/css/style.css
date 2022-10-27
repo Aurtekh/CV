@@ -137,6 +137,7 @@ body {
     text-decoration: none;
     color: #f2f2f2;
   }
+
   #projects > ul > li, #courses > ul > li {
     list-style-type: '👉';
     margin-left: 27px;
@@ -154,16 +155,13 @@ body {
     text-shadow:1px 1px 2px rgba(253, 216, 155, 0.7);
   }
   .onlineZooText {
-    margin-top: 5px;
-    transition: .3s;
-    opacity: 0;
+    font-size: 14px;
     display: none;
   }
   a:hover + .onlineZooText {
     display: block;
-    opacity: 1;
-    transform: scale(1)
   }
+
   .coursesLink, .projectsLink {
     text-decoration: none;
     color: #000000;
