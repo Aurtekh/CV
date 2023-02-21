@@ -165,7 +165,7 @@ html {
   font-size: 14px;
   display: none;
 }
-a:hover + .onlineZooText {
+a:active + .onlineZooText {
   display: block;
 }
 
