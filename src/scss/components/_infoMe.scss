@@ -1,0 +1,93 @@
+@import '../variables';
+
+.InfoMe {
+  display: grid;
+  margin: 0 auto;
+  padding: 0px 15px;
+  padding-bottom: 30px;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: auto auto auto auto;
+  justify-content: space-around;
+  gap: 20px 10px;
+  grid-template-areas:
+    '. .'
+    '. .'
+    '. .'
+    '. .';
+  @media (max-width: 830px) {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 400px;
+    gap: 20px 10px;
+    grid-template-areas: '.';
+  }
+  @media (max-width: 430px) {
+    grid-template-columns: 300px;
+  }
+  &__container {
+    border: 1px solid #000000;
+    -webkit-box-shadow: 8px 10px 10px 0px rgba(34, 60, 80, 0.4);
+    -moz-box-shadow: 8px 10px 10px 0px rgba(34, 60, 80, 0.4);
+    box-shadow: 8px 10px 10px 0px rgba(34, 60, 80, 0.4);
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+    padding: 15px;
+    background: #fff;
+  }
+  &__univer {
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  &__check {
+    li {
+      &:before {
+        content: '✔';
+        margin-right: 3px;
+        color: rgb(0, 117, 45);
+      }
+    }
+  }
+  &__contactsList {
+    &__contactsItem {
+      &-Location {
+        &:before {
+          margin-right: 3px;
+          content: '\1F3DB';
+        }
+      }
+
+      &-Email {
+        &:before {
+          margin-right: 3px;
+          content: '\2709';
+        }
+      }
+
+      &-Phone {
+        &:before {
+          margin-right: 3px;
+          content: '\260E';
+        }
+      }
+    }
+  }
+  &__courses {
+    li {
+      display: inline-block;
+      transition: 0.3s;
+      &:first-child {
+        &:hover,
+        &:focus {
+          transform: scale(1.02);
+          text-shadow: 2px 2px 4px $black;
+        }
+      }
+
+      &:before {
+        margin-right: 3px;
+        content: '👉';
+      }
+    }
+  }
+}

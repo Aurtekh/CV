@@ -1,0 +1,19 @@
+@import './variables.scss';
+@import './libs/normalize.scss';
+
+@import './components/all.scss';
+
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  background-color: $background;
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: $background-main;
+  }
+}

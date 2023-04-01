@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "title": "Travel",
+    "link": "https://rolling-scopes-school.github.io/aurtekh-JSFEPRESCHOOL2022Q2/travel/",
+    "text": "Adaptive HTML coding perfect pixel of <strong>Travel</strong> page according to the layout for resolutions: <strong>1440px, 320px</strong>. Additional functionality:<strong> menu, slider, burger menu, Login pop up</strong>."
+  },
+  {
+    "id": 1,
+    "title": "Momentum",
+    "link": "https://rolling-scopes-school.github.io/aurtekh-JSFEPRESCHOOL2022Q2/Momentum/",
+    "text": "An analogue of the <strong>Chrome online store application</strong> of the same name. The app shows the <strong>time</strong> and the <strong>username</strong>.The <strong>background ting change depending on the time of day</strong>. <br />The application<strong> has a clock, an image slider, weather widgets, an audio player, a quote of the day block, settings</strong>. <strong>Local storage</strong> is used to store the user name and the locality.<br /><br /><strong>Key skills:</strong><br />1. Element search methods;<br />2. Data output to the page;<br />3. Working with date and time;<br />4. Working with audio;<br />5. Daving data to localstorage;<br />6. Using recursive setTimeout;<br />7. Dividing js code into modules;<br />8. Working with asynchronous requests.<br /> <br />"
+  },
+  {
+    "id": 2,
+    "title": "Online zoo",
+    "link": "https://rolling-scopes-school.github.io/aurtekh-JSFE2022Q3/online-zoo/pages/main/",
+    "text": "Adaptive HTML coding perfect pixel of<strong> pet store</strong> and <strong>donate</strong> pages according to the layout for resolutions: <strong>1600px, 1000px, 640px, 320px.</strong> Additional functionality: <strong>menu, slider, pagination, pop-up</strong>."
+  },
+  {
+    "id": 3,
+    "title": "Gem puzzle 15",
+    "link": "https://rolling-scopes-school.github.io/aurtekh-JSFE2022Q3/GemPuzzle/",
+    "text": "Game is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. The puzzle also exists in other sizes: 3x3, 4x4, 5x5, 6x6, 7x7, 8x8. The object of the puzzle is to place the tiles in order by making sliding moves that use the empty space.<br />1. <strong>Adaptive</strong> layout.<br />2. At the beginning state of the game, the frame is filled with<strong> randomly generated and shuffled</strong> numbers.<br />3. The <strong>game can be restarted without reloading the 4. page</strong>.<br />5. Game <strong>duration</strong> and number of <strong>moves</strong> aredisplayed.<br />6. <strong>Sound</strong> accompaniment <strong>(on/off)</strong> of tilesmovement.<br />7. Implemented <strong>saving</strong> the state of the game and saving the top 10 results using <strong>LocalStorage</strong>.<br />8. Implemented selection of <strong>different sizes</strong> for frame.<br />9. Tiles can be <strong>dragged</strong> with use of mouse.<br />"
+  },
+  {
+    "id": 4,
+    "title": "SongBird",
+    "link": "https://rolling-scopes-school.github.io/aurtekh-JSFE2022Q3/SongBird/",
+    "text": "Songbird is a quiz application for recognizing birds by their voices."
+  },
+  {
+    "id": 5,
+    "title": "React Pizza",
+    "link": "https://aurtekh.github.io/react-pizza/",
+    "text": "Online pizza shop<br /><br /><strong>Technologies:</strong><br />1. ReactJS 18<br />2. TypeScript<br /> 3. Redux Toolkit<br /> 4. React Router v6<br /> 5. Axios + Fetch<br /> 6. React Hooks<br /> 7. Prettier<br /> 8. CSS-Modules / SCSS<br /> 9. React Content Loader<br /> 10. React Pagination<br /> 11. Lodash.Debounce<br /> 12. Code Splitting, React Loadable, useWhyDidYouUpdate"
+  },
+  {
+    "id": 6,
+    "title": "Mern blog",
+    "link": "https://mern-blog-frontend-mauve.vercel.app/",
+    "text": "Full Stack blog<br />Backend on stack <strong>MERN</strong> (MongoDB, Express, React, Node JS)<br /><br /><strong>Frontend:</strong><br />1. ReactJS v18<br />2. Redux Toolkit (global state manager)<br />3. React Hook Form (work with forms)<br />4. React Router v6 (navigation/routing)<br />5. React Markdown  / Simple Editor<br />6. Axios(sending requests to the server)<br /><br /><strong>Backend:</strong><br />1. NodeJS / ES6<br />2. Express + Validation (web-server / validation requirements)<br />3. MongoDB / Mongoose (work with Data base)<br />4. JSON Web Token (Authentication / authorization)<br />5. Multer (upload files / img)<br />6. BCrypt (password encryption)"
+  }
+]

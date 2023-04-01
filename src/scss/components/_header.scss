@@ -1,0 +1,116 @@
+@import '../variables';
+.header {
+  max-width: 1200px;
+  min-height: 55px;
+  margin: 0 auto;
+  background: -webkit-linear-gradient(270deg, rgb(0, 112, 87) 52%, rgb(69, 146, 148));
+  background: -moz-linear-gradient(270deg, rgb(0, 112, 87) 52%, rgb(69, 146, 148));
+  background: linear-gradient(270deg, rgb(0, 112, 87) 52%, rgb(69, 146, 148));
+
+  &__container {
+    @media (max-width: 830px) {
+      position: fixed;
+      z-index: 1;
+      min-height: 55px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 0px 15px;
+      width: 100%;
+      background: -webkit-linear-gradient(270deg, rgb(0, 112, 87) 52%, rgb(69, 146, 148));
+      background: -moz-linear-gradient(270deg, rgb(0, 112, 87) 52%, rgb(69, 146, 148));
+      background: linear-gradient(270deg, rgb(0, 112, 87) 52%, rgb(69, 146, 148));
+    }
+  }
+  .nav {
+    @media (max-width: 830px) {
+      display: none;
+    }
+    &-active {
+      @media (max-width: 830px) {
+        display: block;
+        margin-top: 54px;
+        position: fixed;
+        z-index: 1;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        background: rgb(0, 0, 0);
+        width: 100%;
+        height: 400px;
+      }
+    }
+
+    &__list {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      list-style: none;
+      &-active {
+        @media (max-width: 830px) {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+    }
+    &__link {
+      display: block;
+      padding: 16.5px;
+      font-size: 18px;
+      transition: 0.3s;
+      color: #f2f2f2;
+
+      &:hover,
+      &:focus {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  &__containerPopup {
+    display: none;
+    cursor: pointer;
+
+    @media (max-width: 830px) {
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+    }
+    &__bar1,
+    &__bar2,
+    &__bar3 {
+      width: 35px;
+      height: 5px;
+      background-color: #ffffff;
+      margin: 6px 0;
+      transition: 0.4s;
+    }
+
+    /* Rotate first bar */
+    .active &__bar1 {
+      -webkit-transform: rotate(-45deg) translate(-8px, 6px);
+      transform: rotate(-45deg) translate(-8px, 6px);
+    }
+
+    /* Fade out the second bar */
+    .active &__bar2 {
+      opacity: 0;
+    }
+
+    /* Rotate last bar */
+    .active &__bar3 {
+      -webkit-transform: rotate(45deg) translate(-8px, -8px);
+      transform: rotate(45deg) translate(-8px, -8px);
+    }
+  }
+  &__shadow {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+}
