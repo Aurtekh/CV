@@ -40,5 +40,11 @@
     "title": "Mern blog",
     "link": "https://mern-blog-frontend-mauve.vercel.app/",
     "text": "Full Stack blog<br />Backend on stack <strong>MERN</strong> (MongoDB, Express, React, Node JS)<br /><br /><strong>Frontend:</strong><br />1. ReactJS v18<br />2. Redux Toolkit (global state manager)<br />3. React Hook Form (work with forms)<br />4. React Router v6 (navigation/routing)<br />5. React Markdown  / Simple Editor<br />6. Axios(sending requests to the server)<br /><br /><strong>Backend:</strong><br />1. NodeJS / ES6<br />2. Express + Validation (web-server / validation requirements)<br />3. MongoDB / Mongoose (work with Data base)<br />4. JSON Web Token (Authentication / authorization)<br />5. Multer (upload files / img)<br />6. BCrypt (password encryption)"
+  },
+  {
+    "id": 7,
+    "title": "Social network",
+    "link": "https://social-network-nu-ten.vercel.app/",
+    "text": "A simplified analogue of the old version of the VKontakte social network<br /><br /><strong>Functional:</strong><br /><br />1. Authorization page with the ability to register and log in to your account<br />2. The user's page with an avatar, a brief description (age, city, university) and the posts he wrote.<br />3. People search page.<br />4. A page with a feed where posts from all users or from those you have added as friends are displayed in a chronological list. Posts in the feed can be liked and the total number of likes is displayed on them.<br />5. A page with a list of your friends<br />6. A page with messages, where all correspondence is displayed in a list.<br /><br /><strong>Technologies:</strong><br /><br />MERN Stack, frontend written in Typescript"
   }
 ]
