@@ -17,6 +17,7 @@ const Projects = () => {
         <li onClick={() => setIsVisiblePopup(5)}>React Pizza</li>
         <li onClick={() => setIsVisiblePopup(6)}>Mern blog</li>
         <li onClick={() => setIsVisiblePopup(7)}>Social network</li>
+        <li onClick={() => setIsVisiblePopup(8)}>Trainer game</li>
       </ul>
 
       {isVisiblePopup !== 999 && (

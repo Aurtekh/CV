@@ -3,9 +3,9 @@
   max-width: 1200px;
   min-height: 55px;
   margin: 0 auto;
-  background: -webkit-linear-gradient(270deg, rgb(0, 112, 87) 52%, rgb(69, 146, 148));
-  background: -moz-linear-gradient(270deg, rgb(0, 112, 87) 52%, rgb(69, 146, 148));
-  background: linear-gradient(270deg, rgb(0, 112, 87) 52%, rgb(69, 146, 148));
+  background: -webkit-linear-gradient(270deg, #afcceb 27%, #183e89);
+  background: -moz-linear-gradient(270deg, #afcceb 27%, #183e89);
+  background: linear-gradient(270deg, #afcceb 27%, #183e89);
 
   &__container {
     @media (max-width: 830px) {
@@ -17,9 +17,9 @@
       align-items: center;
       padding: 0px 15px;
       width: 100%;
-      background: -webkit-linear-gradient(270deg, rgb(0, 112, 87) 52%, rgb(69, 146, 148));
-      background: -moz-linear-gradient(270deg, rgb(0, 112, 87) 52%, rgb(69, 146, 148));
-      background: linear-gradient(270deg, rgb(0, 112, 87) 52%, rgb(69, 146, 148));
+      background: -webkit-linear-gradient(270deg, #afcceb 27%, #183e89);
+      background: -moz-linear-gradient(270deg, #afcceb 27%, #183e89);
+      background: linear-gradient(270deg, #afcceb 27%, #183e89);
     }
   }
   .nav {
@@ -34,8 +34,8 @@
         z-index: 1;
         left: 50%;
         transform: translate(-50%, 50%);
-        background: rgb(0, 0, 0);
-        width: 100%;
+        background: #fff;
+        width: 101%;
         height: 400px;
       }
     }
@@ -56,9 +56,9 @@
     &__link {
       display: block;
       padding: 16.5px;
-      font-size: 18px;
+      font-size: 19px;
       transition: 0.3s;
-      color: #f2f2f2;
+      color: #000000;
 
       &:hover,
       &:focus {

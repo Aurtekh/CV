@@ -33,13 +33,26 @@ const InfoMe = () => {
       <div className="InfoMe__container" id="skills">
         <h2>Skills</h2>
         <ul className="InfoMe__check">
+          <div>Frontend:</div>
           <li>HTML / CSS</li>
           <li>TypeScript / JavaScript (ES6+)</li>
           <li>ReactJS</li>
-          <li>Redux Toolkit / Redux</li>
-          <li>Responsive design</li>
-          <li>Version Control / Git</li>
+          <li>Redux Toolkit / Redux / Redux Saga</li>
+          <li>REST API (Axios, Fetch, React Query).</li>
+          <li>Post & Pre Processing CSS / CSS Module</li>
+          <li>Responsive design / Adaptive design</li>
+          <div>Backend:</div>
+          <li>Node.JS</li>
+          <li>Express</li>
+          <li>Mongoose</li>
+          <li>Sequelize</li>
+          <li>PostgreSQL / MongoDB / MySQL</li>
+          <li>JWT</li>
+          <div>Other skills:</div>
+          <li>Git / GitHub</li>
           <li>Figma</li>
+          <li>BEM (CSS)</li>
+          <li>Jira</li>
         </ul>
       </div>
       <div className="InfoMe__container" id="projects">

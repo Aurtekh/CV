@@ -46,5 +46,11 @@
     "title": "Social network",
     "link": "https://social-network-nu-ten.vercel.app/",
     "text": "A simplified analogue of the old version of the VKontakte social network<br /><br /><strong>Functional:</strong><br /><br />1. Authorization page with the ability to register and log in to your account<br />2. The user's page with an avatar, a brief description (age, city, university) and the posts he wrote.<br />3. People search page.<br />4. A page with a feed where posts from all users or from those you have added as friends are displayed in a chronological list. Posts in the feed can be liked and the total number of likes is displayed on them.<br />5. A page with a list of your friends<br />6. A page with messages, where all correspondence is displayed in a list.<br /><br /><strong>Technologies:</strong><br /><br />MERN Stack, frontend written in Typescript"
+  },
+  {
+    "id": 8,
+    "title": "Trainer game",
+    "link": "https://trainer-games-aurtekh.vercel.app/",
+    "text": "Find the number - simulator for attention"
   }
 ]

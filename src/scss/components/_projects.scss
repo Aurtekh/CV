@@ -8,14 +8,16 @@
     cursor: pointer;
     display: inline-block;
     transition: 0.3s;
-
+    color: #183e89;
+    text-decoration: underline;
     &:hover,
     &:focus {
       transform: scale(1.02);
-      text-shadow: 2px 2px 4px $black;
+      color: blue;
     }
 
     &:before {
+      display: inline-block;
       margin-right: 3px;
       content: '👉';
     }
@@ -65,17 +67,21 @@
     text-align: center;
     font-weight: 600;
     transition: 0.3s;
+    color: #183e89;
+    text-decoration: underline;
     &:hover,
     &:focus {
       transform: scale(1.02);
-      text-shadow: 2px 2px 4px $black;
+      color: blue;
     }
 
     &:before {
+      display: inline-block;
       margin-right: 3px;
       content: '👉';
     }
     &:after {
+      display: inline-block;
       margin-left: 3px;
       content: '👈';
     }
