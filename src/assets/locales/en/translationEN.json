@@ -1,0 +1,32 @@
+{
+  "Summary": {
+    "header": "Summary",
+    "text": "I'm interested in writing code and then seeing the result of my efforts. I started to learn programming languages from school, such as Pascal, Delphi. In my university years I got acquainted with C++. But I always wanted to dive into WEB-development, so I settled on learning the JavaScript programming language. In my spare time from programming I play the piano, do sports and go hiking."
+  },
+  "Education": {
+    "header": "Education",
+    "univer1": "Southern Federal University - Taganrog, Russia 2015-2019:",
+    "specialty1": "Information security: Information and Analytical Systems of Financial Monitoring",
+    "univer2": "Southern Federal University - Taganrog, Russia 2019-2021:",
+    "specialty2": "Applied Informatics: Information and analytical systems and 'big data' technologies"
+  },
+  "Skills": {
+    "header": "Skills",
+    "frontend": "Frontend:",
+    "backend": "Backend:",
+    "other": "Other skills:"
+  },
+  "Projects": "Projects",
+  "Contacts": {
+    "header": "Contacts",
+    "location": "Location",
+    "email": "Email",
+    "phone": "Phone",
+    "city": "Armavir, Russia"
+  },
+  "Courses": "Courses",
+  "English": "English",
+  "Name": "I'm Ermolovich Daniil Victorovich,",
+  "Prof": "Frontend developer",
+  "Link": "Link to the Deployed project"
+}

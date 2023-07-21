@@ -25,10 +25,9 @@
     grid-template-columns: 300px;
   }
   &__container {
-    border: 1px solid #000000;
-    -webkit-box-shadow: 8px 10px 10px 0px rgba(34, 60, 80, 0.4);
-    -moz-box-shadow: 8px 10px 10px 0px rgba(34, 60, 80, 0.4);
-    box-shadow: 8px 10px 10px 0px rgba(34, 60, 80, 0.4);
+    -webkit-box-shadow: 4px 4px 10px 0px rgba(34, 60, 80, 0.4);
+    -moz-box-shadow: 4px 4px 10px 0px rgba(34, 60, 80, 0.4);
+    box-shadow: 4px 4px 10px 0px rgba(34, 60, 80, 0.4);
     border-radius: 20px;
     overflow: hidden;
     width: 100%;

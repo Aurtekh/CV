@@ -1,13 +1,15 @@
 import React from 'react';
-
 import allProjects from '../../assets/projects.json';
+import { useTranslation } from 'react-i18next';
+import { languageContext } from '../../App';
 
 const Projects = () => {
   const [isVisiblePopup, setIsVisiblePopup] = React.useState(999);
-
+  const { t } = useTranslation();
+  const { state } = React.useContext(languageContext);
   return (
     <>
-      <h2>Projects</h2>
+      <h2>{t('Projects')}</h2>
       <ul className="projects">
         <li onClick={() => setIsVisiblePopup(0)}>Travel</li>
         <li onClick={() => setIsVisiblePopup(1)}>Momentum</li>
@@ -27,9 +29,14 @@ const Projects = () => {
             <h2 className="popup__header">{allProjects[isVisiblePopup].title}</h2>
             <div
               className="popup__text"
-              dangerouslySetInnerHTML={{ __html: allProjects[isVisiblePopup].text }}></div>
+              dangerouslySetInnerHTML={{
+                __html:
+                  state.language === 'en'
+                    ? allProjects[isVisiblePopup].textEN
+                    : allProjects[isVisiblePopup].textRU,
+              }}></div>
             <a className="popup__link" href={allProjects[isVisiblePopup].link}>
-              Link to the Deployed project
+              {t('Link')}
             </a>
           </div>
           <div className="popup__shadow" onClick={() => setIsVisiblePopup(999)}></div>

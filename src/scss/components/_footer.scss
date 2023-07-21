@@ -3,21 +3,28 @@
 .footer {
   max-width: 1200px;
   margin: 0 auto;
-  background: -webkit-linear-gradient(270deg, #183e89 27%, #afcceb);
-  background: -moz-linear-gradient(270deg, #183e89 27%, #afcceb);
-  background: linear-gradient(270deg, #183e89 27%, #afcceb);
+  background: #b4d4fc;
+  border-top: 2px solid;
   padding: 10px 15px 10px 15px;
 
   &__wrapper {
     display: grid;
     margin: 0 auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.1fr 0.1fr;
     grid-template-rows: 1fr;
-    justify-content: space-around;
+    justify-content: center;
     justify-items: center;
     align-items: center;
-    gap: 0px 10px;
+    gap: 0px 85px;
     grid-template-areas: '. .';
+
+    @media (max-width: 830px) {
+      display: grid;
+      grid-auto-rows: 1fr;
+      grid-template-columns: 200px;
+      gap: 10px 10px;
+      grid-template-areas: '.';
+    }
 
     @media (max-width: 380px) {
       display: grid;

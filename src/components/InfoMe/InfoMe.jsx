@@ -1,39 +1,28 @@
 import React from 'react';
 import Projects from '../Projects/Projects';
+import { useTranslation } from 'react-i18next';
 
 const InfoMe = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="InfoMe">
       <div className="InfoMe__container" id="summary">
-        <h2>Summary</h2>
-        <div>
-          I'm interested in writing code and then seeing the result of my efforts. I started to
-          learn programming languages from school, such as Pascal, Delphi. In my university years I
-          got acquainted with C++. But I always wanted to dive into WEB-development, so I settled on
-          learning the JavaScript programming language. In my spare time from programming I play the
-          piano, do sports and go hiking.
-        </div>
+        <h2>{t('Summary.header')}</h2>
+        <div>{t('Summary.text')}</div>
       </div>
       <div className="InfoMe__container" id="education">
-        <h2>Education</h2>
-        <div className="InfoMe__univer">
-          Southern Federal University - Taganrog, Russia 2015-2019:
-        </div>
-        <div className="InfoMe__specialty">
-          Information security: Information and Analytical Systems of Financial Monitoring
-        </div>
+        <h2>{t('Education.header')}</h2>
+        <div className="InfoMe__univer">{t('Education.univer1')}</div>
+        <div className="InfoMe__specialty">{t('Education.specialty1')}</div>
         <br />
-        <div className="InfoMe__univer">
-          Southern Federal University - Taganrog, Russia 2019-2021:
-        </div>
-        <div className="InfoMe__specialty">
-          Applied Informatics: Information and analytical systems and 'big data' technologies
-        </div>
+        <div className="InfoMe__univer">{t('Education.univer2')}</div>
+        <div className="InfoMe__specialty">{t('Education.specialty2')}</div>
       </div>
       <div className="InfoMe__container" id="skills">
-        <h2>Skills</h2>
+        <h2>{t('Skills.header')}</h2>
         <ul className="InfoMe__check">
-          <div>Frontend:</div>
+          <div>{t('Skills.frontend')}</div>
           <li>HTML / CSS</li>
           <li>TypeScript / JavaScript (ES6+)</li>
           <li>ReactJS</li>
@@ -41,14 +30,16 @@ const InfoMe = () => {
           <li>REST API (Axios, Fetch, React Query).</li>
           <li>Post & Pre Processing CSS / CSS Module</li>
           <li>Responsive design / Adaptive design</li>
-          <div>Backend:</div>
+          <li>Material UI / Bootstrap</li>
+          <li>Webpack</li>
+          <div>{t('Skills.backend')}</div>
           <li>Node.JS</li>
           <li>Express</li>
           <li>Mongoose</li>
           <li>Sequelize</li>
           <li>PostgreSQL / MongoDB / MySQL</li>
           <li>JWT</li>
-          <div>Other skills:</div>
+          <div>{t('Skills.other')}</div>
           <li>Git / GitHub</li>
           <li>Figma</li>
           <li>BEM (CSS)</li>
@@ -59,18 +50,22 @@ const InfoMe = () => {
         <Projects />
       </div>
       <div className="InfoMe__container" id="contacts">
-        <h2>Contacts</h2>
+        <h2>{t('Contacts.header')}</h2>
         <ul className="InfoMe__contactsList">
-          <li className="InfoMe__contactsList__contactsItem-Location">Location: Armavir, Russia</li>
+          <li className="InfoMe__contactsList__contactsItem-Location">
+            {t('Contacts.location')}: {t('Contacts.city')}
+          </li>
           <li className="InfoMe__contactsList__contactsItem-Email">
-            Email: ermolovichd007@gmail.com
+            {t('Contacts.email')}: ermolovichd007@gmail.com
           </li>
           <li className="InfoMe__contactsList__contactsItem-Email">Discord: Aurtekh#3786</li>
-          <li className="InfoMe__contactsList__contactsItem-Phone">Phone: +79034550459</li>
+          <li className="InfoMe__contactsList__contactsItem-Phone">
+            {t('Contacts.phone')}: +79034550459
+          </li>
         </ul>
       </div>
       <div className="InfoMe__container" id="courses">
-        <h2>Courses</h2>
+        <h2>{t('Courses')}</h2>
         <ul className="InfoMe__courses">
           <li>
             <a href="https://app.rs.school/certificate/kq5p9o84" className="coursesLink">
@@ -81,7 +76,7 @@ const InfoMe = () => {
         </ul>
       </div>
       <div className="InfoMe__container" id="english">
-        <h2>English</h2>
+        <h2>{t('English')}</h2>
         <ul>
           <li>B1 - Intermediate</li>
         </ul>

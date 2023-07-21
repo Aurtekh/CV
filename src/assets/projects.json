@@ -3,54 +3,63 @@
     "id": 0,
     "title": "Travel",
     "link": "https://rolling-scopes-school.github.io/aurtekh-JSFEPRESCHOOL2022Q2/travel/",
-    "text": "Adaptive HTML coding perfect pixel of <strong>Travel</strong> page according to the layout for resolutions: <strong>1440px, 320px</strong>. Additional functionality:<strong> menu, slider, burger menu, Login pop up</strong>."
+    "textEN": "Adaptive HTML coding perfect pixel of <strong>Travel</strong> page according to the layout for resolutions: <strong>1440px, 320px</strong>. Additional functionality:<strong> menu, slider, burger menu, Login pop up</strong>.",
+    "textRU": "Адаптивная HTML верстка perfect pixel <strong>Travel</strong> сайта, под разрешения: <strong>1440px, 320px</strong>. Дополнительный функционал:<strong> меню, слайдер, бургер меню, всплывающее окно входа в систему</strong>."
   },
   {
     "id": 1,
     "title": "Momentum",
     "link": "https://rolling-scopes-school.github.io/aurtekh-JSFEPRESCHOOL2022Q2/Momentum/",
-    "text": "An analogue of the <strong>Chrome online store application</strong> of the same name. The app shows the <strong>time</strong> and the <strong>username</strong>.The <strong>background ting change depending on the time of day</strong>. <br />The application<strong> has a clock, an image slider, weather widgets, an audio player, a quote of the day block, settings</strong>. <strong>Local storage</strong> is used to store the user name and the locality.<br /><br /><strong>Key skills:</strong><br />1. Element search methods;<br />2. Data output to the page;<br />3. Working with date and time;<br />4. Working with audio;<br />5. Daving data to localstorage;<br />6. Using recursive setTimeout;<br />7. Dividing js code into modules;<br />8. Working with asynchronous requests.<br /> <br />"
+    "textEN": "An analogue of the <strong>Chrome online store application</strong> of the same name. The app shows the <strong>time</strong> and the <strong>username</strong>.The <strong>background ting change depending on the time of day</strong>. <br />The application<strong> has a clock, an image slider, weather widgets, an audio player, a quote of the day block, settings</strong>. <strong>Local storage</strong> is used to store the user name and the locality.<br /><br /><strong>Key skills:</strong><br />1. Element search methods;<br />2. Data output to the page;<br />3. Working with date and time;<br />4. Working with audio;<br />5. Daving data to localstorage;<br />6. Using recursive setTimeout;<br />7. Dividing js code into modules;<br />8. Working with asynchronous requests.<br /> <br />",
+    "textRU": "Аналог <strong>приложения из интернет-магазина Chrome</strong>. Приложение показывает <strong>время</strong> и <strong>имя пользователя</strong>. <strong>Изменение фонового изображения в зависимости от времени суток</strong>. <br />В приложении<strong> есть часы, слайдер изображений, виджеты погоды, аудиоплеер, блок цитат дня, настройки</strong>. <strong>Локальное хранилище</strong> используется для хранения имени пользователя и местоположения.<br /><br /><strong>Ключевые навыки:</strong><br />1. Методы поиска элементов;<br />2. Вывод данных на страницу;<br />3. Работа с датой и временем;<br />4. Работа со звуком;<br />5. Сохранение данных в локальном хранилище;<br />6. Использование рекурсивного setTimeout;<br />7. Разделение js-кода на модули;<br />8. Работа с асинхронными запросами.<br /> <br />"
   },
   {
     "id": 2,
     "title": "Online zoo",
     "link": "https://rolling-scopes-school.github.io/aurtekh-JSFE2022Q3/online-zoo/pages/main/",
-    "text": "Adaptive HTML coding perfect pixel of<strong> pet store</strong> and <strong>donate</strong> pages according to the layout for resolutions: <strong>1600px, 1000px, 640px, 320px.</strong> Additional functionality: <strong>menu, slider, pagination, pop-up</strong>."
+    "textEN": "Adaptive HTML coding perfect pixel of<strong> pet store</strong> and <strong>donate</strong> pages according to the layout for resolutions: <strong>1600px, 1000px, 640px, 320px.</strong> Additional functionality: <strong>menu, slider, pagination, pop-up</strong>.",
+    "textRU": "Адаптивная HTML верстка perfect pixel страниц <strong>pet store</strong> и <strong>donate</strong> для разрешений: <strong>1600px, 1000px, 640px, 320px.</strong> Дополонительный функционал: <strong>меню, слайдер, пагинация, всплывающее окно</strong>."
   },
   {
     "id": 3,
     "title": "Gem puzzle 15",
     "link": "https://rolling-scopes-school.github.io/aurtekh-JSFE2022Q3/GemPuzzle/",
-    "text": "Game is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. The puzzle also exists in other sizes: 3x3, 4x4, 5x5, 6x6, 7x7, 8x8. The object of the puzzle is to place the tiles in order by making sliding moves that use the empty space.<br />1. <strong>Adaptive</strong> layout.<br />2. At the beginning state of the game, the frame is filled with<strong> randomly generated and shuffled</strong> numbers.<br />3. The <strong>game can be restarted without reloading the 4. page</strong>.<br />5. Game <strong>duration</strong> and number of <strong>moves</strong> aredisplayed.<br />6. <strong>Sound</strong> accompaniment <strong>(on/off)</strong> of tilesmovement.<br />7. Implemented <strong>saving</strong> the state of the game and saving the top 10 results using <strong>LocalStorage</strong>.<br />8. Implemented selection of <strong>different sizes</strong> for frame.<br />9. Tiles can be <strong>dragged</strong> with use of mouse.<br />"
+    "textEN": "Game is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. The puzzle also exists in other sizes: 3x3, 4x4, 5x5, 6x6, 7x7, 8x8. The object of the puzzle is to place the tiles in order by making sliding moves that use the empty space.<br />1. <strong>Adaptive</strong> layout.<br />2. At the beginning state of the game, the frame is filled with<strong> randomly generated and shuffled</strong> numbers.<br />3. The <strong>game can be restarted without reloading the page</strong>.<br />4. Game <strong>duration</strong> and number of <strong>moves</strong> aredisplayed.<br />5. <strong>Sound</strong> accompaniment <strong>(on/off)</strong> of tilesmovement.<br />6. Implemented <strong>saving</strong> the state of the game and saving the top 10 results using <strong>LocalStorage</strong>.<br />7. Implemented selection of <strong>different sizes</strong> for frame.<br />8. Tiles can be <strong>dragged</strong> with use of mouse.<br />",
+    "textRU": "Игра представляет собой скользящую головоломку, которая состоит из рамки из пронумерованных квадратных плиток в случайном порядке, при этом одной плитки не хватает. Головоломка также существует в других размерах: 3х3, 4х4, 5х5, 6х6, 7х7, 8х8. Цель головоломки состоит в том, чтобы расставить плитки по порядку, совершая скользящие движения, которые используют пустое пространство.<br />1. <strong>Адаптивная</strong> верстка.<br />2. В начальном состоянии игры рамка заполняется<strong> случайно сгенерированными и перетасованными</strong> числами.<br />3. Игра может быть <strong>перезапущена без перезагрузки страницы</strong> <br /> 4. Отображается <strong>продолжительность</strong> игры и <strong>количество ходов</strong>.<br />5. <strong>Звук</strong> может быть <strong>(включен/выключен)</strong>.<br />6. Реализовано <strong>сохранение</strong> состояния игры и сохранение 10 лучших результатов с помощью <strong>LocalStorage</strong>.<br />7. Реализован выбор <strong>различных размеров</strong> игрового поля.<br />8. Плитки можно <strong>перетаскивать</strong> с помощью мышки.<br />"
   },
   {
     "id": 4,
     "title": "SongBird",
     "link": "https://rolling-scopes-school.github.io/aurtekh-JSFE2022Q3/SongBird/",
-    "text": "Songbird is a quiz application for recognizing birds by their voices."
+    "textEN": "Songbird is a quiz application for recognizing birds by their voices.",
+    "textRU": "Songbird - это приложение-викторина для распознавания птиц по их голосам."
   },
   {
     "id": 5,
     "title": "React Pizza",
     "link": "https://aurtekh.github.io/react-pizza/",
-    "text": "Online pizza shop<br /><br /><strong>Technologies:</strong><br />1. ReactJS 18<br />2. TypeScript<br /> 3. Redux Toolkit<br /> 4. React Router v6<br /> 5. Axios + Fetch<br /> 6. React Hooks<br /> 7. Prettier<br /> 8. CSS-Modules / SCSS<br /> 9. React Content Loader<br /> 10. React Pagination<br /> 11. Lodash.Debounce<br /> 12. Code Splitting, React Loadable, useWhyDidYouUpdate"
+    "textEN": "Online pizza shop<br /><br /><strong>Technologies:</strong><br />1. ReactJS 18<br />2. TypeScript<br /> 3. Redux Toolkit<br /> 4. React Router v6<br /> 5. Axios + Fetch<br /> 6. React Hooks<br /> 7. Prettier<br /> 8. CSS-Modules / SCSS<br /> 9. React Content Loader<br /> 10. React Pagination<br /> 11. Lodash.Debounce<br /> 12. Code Splitting, React Loadable, useWhyDidYouUpdate",
+    "textRU": "Интернет-магазин пиццы<br /><br /><strong>Технологии:</strong><br />1. ReactJS 18<br />2. TypeScript<br /> 3. Redux Toolkit<br /> 4. React Router v6<br /> 5. Axios + Fetch<br /> 6. React Hooks<br /> 7. Prettier<br /> 8. CSS-Modules / SCSS<br /> 9. React Content Loader<br /> 10. React Pagination<br /> 11. Lodash.Debounce<br /> 12. Code Splitting, React Loadable, useWhyDidYouUpdate"
   },
   {
     "id": 6,
     "title": "Mern blog",
     "link": "https://mern-blog-frontend-mauve.vercel.app/",
-    "text": "Full Stack blog<br />Backend on stack <strong>MERN</strong> (MongoDB, Express, React, Node JS)<br /><br /><strong>Frontend:</strong><br />1. ReactJS v18<br />2. Redux Toolkit (global state manager)<br />3. React Hook Form (work with forms)<br />4. React Router v6 (navigation/routing)<br />5. React Markdown  / Simple Editor<br />6. Axios(sending requests to the server)<br /><br /><strong>Backend:</strong><br />1. NodeJS / ES6<br />2. Express + Validation (web-server / validation requirements)<br />3. MongoDB / Mongoose (work with Data base)<br />4. JSON Web Token (Authentication / authorization)<br />5. Multer (upload files / img)<br />6. BCrypt (password encryption)"
+    "textEN": "Full Stack blog<br />Backend on stack <strong>MERN</strong> (MongoDB, Express, React, Node JS)<br /><br /><strong>Frontend:</strong><br />1. ReactJS v18<br />2. Redux Toolkit (global state manager)<br />3. React Hook Form (work with forms)<br />4. React Router v6 (navigation/routing)<br />5. React Markdown  / Simple Editor<br />6. Axios(sending requests to the server)<br /><br /><strong>Backend:</strong><br />1. NodeJS / ES6<br />2. Express + Validation (web-server / validation requirements)<br />3. MongoDB / Mongoose (work with Data base)<br />4. JSON Web Token (Authentication / authorization)<br />5. Multer (upload files / img)<br />6. BCrypt (password encryption)",
+    "textRU": "Full Stack блог<br />Бэкэнд на стеке <strong>MERN</strong> (MongoDB, Express, React, Node JS)<br /><br /><strong>Фронтенд:</strong><br />1. ReactJS v18<br />2. Redux Toolkit (глобальный менеджер состояния)<br />3. React Hook Form (работа с формами)<br />4. React Router v6 (навигация/маршрутизация)<br />5. React Markdown  / Simple Editor<br />6. Axios(отправка запросов на сервер)<br /><br /><strong>Бэкэнд:</strong><br />1. NodeJS / ES6<br />2. Express + Validation (web-server / validation requirements)<br />3. MongoDB / Mongoose (работа с базой данных)<br />4. JSON Web Token (Аутентификация/ авторизация)<br />5. Multer (загрузка файлов / img)<br />6. BCrypt (шифрование паролей)"
   },
   {
     "id": 7,
     "title": "Social network",
     "link": "https://social-network-nu-ten.vercel.app/",
-    "text": "A simplified analogue of the old version of the VKontakte social network<br /><br /><strong>Functional:</strong><br /><br />1. Authorization page with the ability to register and log in to your account<br />2. The user's page with an avatar, a brief description (age, city, university) and the posts he wrote.<br />3. People search page.<br />4. A page with a feed where posts from all users or from those you have added as friends are displayed in a chronological list. Posts in the feed can be liked and the total number of likes is displayed on them.<br />5. A page with a list of your friends<br />6. A page with messages, where all correspondence is displayed in a list.<br /><br /><strong>Technologies:</strong><br /><br />MERN Stack, frontend written in Typescript"
+    "textEN": "A simplified analogue of the old version of the VKontakte social network<br /><br /><strong>Functional:</strong><br /><br />1. Authorization page with the ability to register and log in to your account<br />2. The user's page with an avatar, a brief description (age, city, university) and the posts he wrote.<br />3. People search page.<br />4. A page with a feed where posts from all users or from those you have added as friends are displayed in a chronological list. Posts in the feed can be liked and the total number of likes is displayed on them.<br />5. A page with a list of your friends<br />6. A page with messages, where all correspondence is displayed in a list.<br /><br /><strong>Technologies:</strong><br /><br />MERN Stack, frontend written in Typescript",
+    "textRU": "Упрощенный аналог старой версии социальной сети ВКонтакте<br /><br /><strong>Функционал:</strong><br /><br />1. Страница авторизации с возможностью регистрации и входа в свой аккаунт<br />2. Страница пользователя с аватаром, кратким описанием (возраст, город, университет) и постами, которые он написал.<br />3.  Страница поиска людей.<br />4.Страница с лентой, на которой в хронологическом порядке отображаются сообщения от всех пользователей или от тех, кого вы добавили в друзья. Посты в ленте могут быть отмечены лайками, и на них отображается общее количество лайков.<br />5. Страница со списком ваших друзей<br />6. Страница с сообщениями, где вся переписка отображается в виде списка.<br /><br /><strong>Технологии:</strong><br /><br />MERN стек, фронтенд написан на Typescript"
   },
   {
     "id": 8,
     "title": "Trainer game",
     "link": "https://trainer-games-aurtekh.vercel.app/",
-    "text": "Find the number - simulator for attention"
+    "textEN": "Find the number - simulator for attention",
+    "textRU": "Найди число - тренажер на внимание"
   }
 ]
